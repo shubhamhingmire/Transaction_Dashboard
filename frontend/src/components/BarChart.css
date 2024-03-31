@@ -1,0 +1,31 @@
+
+.barGraph {
+  background-color: #d0e3d7;
+    text-align: center;
+    padding: 10px;
+    margin-top: -90px;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  
+  .chartContainer {
+    max-width: 850px;
+    margin:auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(6, 231, 81, 0.943);
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .chart{
+    display: flex;
+    margin-left: 13rem;
+    margin-bottom: 3rem;
+    
+  }
+
+
+  
+ 
+  

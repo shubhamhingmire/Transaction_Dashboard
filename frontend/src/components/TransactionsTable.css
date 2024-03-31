@@ -1,0 +1,50 @@
+.transactions-container {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.transactions-container h2 {
+  margin-top: 0; 
+}
+
+.transactions-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #e5ca78;
+}
+
+.transactions-table th, 
+.transactions-table td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.pagination button {
+  color: black;
+  background-color: #fff;
+  padding: 8px 15px;
+  margin: 0 5px;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  float: right;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 450px;
+  background-color: #e5ca78;
+  border-radius: 5px;
+  padding: 6px;
+  
+}

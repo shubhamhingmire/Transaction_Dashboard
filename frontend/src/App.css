@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  background-color: #d0e3d7;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #d0e3d7; /* Set background color here */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dashboard {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  font-weight: bolder;
+  margin: 0px auto;
+}
+
+.month {
+  background-color: blue;
+  border-radius: 50px;
+  margin-top: 38px;
+  margin-right: 9px;
+}
+
+.select-month {
+  background-color: #e5ca78;
+  font-family: 'Courier New', Courier, monospace;
+  height: 25px;
+  margin-top: 37px;
+}
+
+.select-month option {
+  background-color: #e5ca78;
+}
+
+.select-m {
+  background-color: #e5ca78;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+
+.datepicker-container {
+  color: #e5ca78;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.month-select-container {
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  margin-right: 300px;
+  align-items: center;
+  background-color: #e5ca78;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* changes to select container */
+.month-select-container label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.month-select-container .react-select__control {
+  width: 200px;
+  border: 1px solid #e5ca78;
+  border-radius: 5px;
+}
+
+.month-select-container .react-select__single-value {
+  color: #e5ca78;
+  background-color: #e5ca78;
+}
+
+.month-select-container .react-select__menu {
+  border: 1px solid #e5ca78;
+  border-radius: 5px;
+  background-color: #e5ca78;
+}
+
+.month-select-container .react-select__option {
+  padding: 8px 12px;
+  background-color: #e5ca78;
+}
+
+.month-select-container .react-select__option--is-focused {
+  background-color: #e5ca78;
+}
+
+.month-select-container .react-select__option--is-selected {
+  background-color: #007bff;
+  color: #e5ca78;
+}
